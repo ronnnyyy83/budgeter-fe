@@ -1,0 +1,20 @@
+.wrapper {
+  position: relative;
+
+  .logoContainer {
+    background: #212529;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    width: calc(100% + 20px);
+    text-align: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+  }
+
+  .buttonContainer {
+    position: absolute;
+    right: 0;
+    top: 3px;
+  }
+}

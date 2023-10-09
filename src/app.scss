@@ -1,0 +1,45 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+.btn-link {
+  color: #212529;
+
+  &:hover {
+    color: #212529;
+    opacity: 0.7;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.25rem rgb(66 70 73 / 50%);
+  }
+}
+
+.btn-link-white {
+  color: #fff;
+
+  &:hover {
+    color: #fff;
+    opacity: 0.7;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.25rem rgb(66 70 73 / 50%);
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*, *::before, *::after {
+  font-size: 14px;
+}
